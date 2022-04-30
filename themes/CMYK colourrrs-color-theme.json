@@ -1,157 +1,123 @@
 {
-  "name": "CMYK colourrrs",
   "colors": {
+    // "activityBar.activeBorder": "#15EFAE",
+    // "activityBar.activeFocusBorder": "#15EFAE",
+    "activityBar.activeBorder": "#EBEF15",
+    "activityBar.activeFocusBorder": "#EBEF15",
+    "activityBar.background": "#130E0F",
+    "activityBar.border": "#302546", // I don't know if we need this
+    // "scrollbarSlider.activeBackground": "#15EFAE", // maybe?
+    // "activityBar.activeFocusBorder": "#ff0000", // what's this????
+    "activityBar.foreground": "#FFFFFF",
+    "activityBar.inactiveForeground": "#807694",
+    "activityBarBadge.background": "#EF15BF",
+    "breadcrumb.background": "#130E0F",
+    "button.background": "#7515EF",
+    // TODO: style later??
+    "diffEditor.insertedTextBackground": "#15efae1a",
+    "diffEditor.removedTextBackground": "#ef15611e",
+    "diffEditorGutter.insertedLineBackground": "#15efae2f",
+    "diffEditorGutter.removedLineBackground": "#ef15614f",
     "editor.background": "#221B32",
+    // Searching
+    "editor.findMatchBackground": "#7515EF22",
+    "editor.findMatchBorder": "#7515EF",
+    "editor.findMatchHighlightBackground": "#463767",
     "editor.foreground": "#E0DDE5",
-    "sideBar.foreground": "#FFFFFF",
-    "sideBar.background": "#130E0F",
-    "sideBar.border": "#EF15BF",
-    "sideBarSectionHeader.border": "#EF15BF",
-    "sideBarSectionHeader.background": "#130E0F",
-    "editorLink.activeForeground": "#15EFAE",
-
-    "terminal.background":"#130E0F",
-    "terminal.foreground":"#E0DDE5",
-    "terminal.ansiBlack":"#130E0F",
-    "terminal.ansiBrightBlack":"#807694",
-    "terminal.ansiBrightBlue":"#15AEEF",
-    "terminal.ansiBrightCyan":"#15EFAE",
-    "terminal.ansiBrightGreen":"#15EFAE",
-    "terminal.ansiBrightMagenta":"#EF15BF",
-    "terminal.ansiBrightRed":"#EF1563",
-    "terminal.ansiBrightWhite":"#FFF",
-    "terminal.ansiBrightYellow":"#EBEF15",
-    "terminal.ansiBlue":"#15AEEF",
-    "terminal.ansiCyan":"#15EFAE",
-    "terminal.ansiGreen":"#15EFAE",
-    "terminal.ansiMagenta":"#EF15BF",
-    "terminal.ansiRed":"#EF1563",
-    "terminal.ansiWhite":"#E0DDE5",
-    "terminal.ansiYellow":"#EBEF15",
-
-    "input.background": "#130E0F",
-
-
+    "editor.lineHighlightBackground": "#2B223F",
+    "editor.lineHighlightBorder": "#463767",
     // "editor.selectionBackground": "#130E0F", // maybe?? dark, high contrast
     // "editor.selectionBackground": "#2B223F", // nice, lacks contrast
     "editor.selectionBackground": "#382C51", // nice, more normal, decent contrast
-
-    "editorIndentGuide.background": "#463767",
-    "editorIndentGuide.activeBackground": "#15AEEF",
-
+    "editor.wordHighlightBackground": "#382C51",
+    "editor.wordHighlightStrongBackground": "#382C51",
+    "editorCursor.foreground": "#FFF",
+    // "sideBarTitle.foreground": "#EF15BF",
+    "editorError.foreground": "#EF1563",
+    "editorGroupHeader.tabsBackground": "#130E0F",
+    "editorGutter.addedBackground": "#15EFAE",
     "editorGutter.background": "#130E0F",
-
+    "editorGutter.deletedBackground": "#EF1563",
+    "editorGutter.foldingControlForeground": "#EF15BF",
+    "editorGutter.modifiedBackground": "#EF9815",
+    "editorIndentGuide.activeBackground": "#15AEEF",
+    "editorIndentGuide.background": "#463767",
+    "editorLineNumber.activeForeground": "#EF15BF",
+    // "editorLineNumber.foreground": "#807694", // this is nice but may be harder to read
+    "editorLineNumber.foreground": "#BCB9C2",
+    "editorLink.activeForeground": "#15EFAE",
     "editorWhitespace.foreground": "#2B223F",
-
-    "pickerGroup.foreground": "#15EFAE",
-
-    "listFilterWidget.background": "#ff0000",
-    
-    "quickInput.background": "#130E0F",
-    
-    "quickInput.foreground": "#D5D2DC",
-    // "quickInput.foreground": "#E0DDE5",
-
-    "quickInputList.focusBackground": "#EF1563", // nice
-    "quickInputList.focusForeground": "#FFF",
-    "quickInputList.focusIconForeground": "#FFF",
-    
-    "notificationLink.foreground": "#EF1563",
-    
-
+    // ??? can't test
+    // "list.highlightForeground": "#5E81AC",
+    // What's this???
+    // "editorLineNumber.activeForeground": "#eeffff",
+    "focusBorder": "#15EFAE",
     // Git filename colours?
     // "gitDecoration.untrackedResourceForeground": "#ff0000",
     "gitDecoration.addedResourceForeground": "#15EFAE",
     "gitDecoration.deletedResourceForeground": "#EF1563",
-    
-
-    // TODO: style later??
-    "diffEditorGutter.insertedLineBackground": "#15efae2f",
-    "diffEditorGutter.removedLineBackground": "#ef15614f",
-
-    "editorGutter.foldingControlForeground": "#EF15BF",
-
-    // "sideBarSectionHeader.foreground": "", // Section headers, collapsible things
-
-    "scrollbarSlider.background": "#2B223F",
-    "scrollbarSlider.hoverBackground": "#2B223F",
-
-    "minimap.selectionHighlight": "#7515EF",
-
-    "scrollbarSlider.activeBackground": "#7515EF", // maybe?
-    // "scrollbarSlider.activeBackground": "#15EFAE", // maybe?
-
-    // "activityBar.activeFocusBorder": "#ff0000", // what's this????
-
-    "activityBar.foreground": "#FFFFFF",
-
-    // "activityBar.activeBorder": "#15EFAE",
-    // "activityBar.activeFocusBorder": "#15EFAE",
-
-    "activityBar.activeBorder": "#EBEF15",
-    "activityBar.activeFocusBorder": "#EBEF15",
-
-    "button.background": "#7515EF",
-    // "button.foreground": "#130E0F",
-
-    "textLink.foreground": "#EF15BF",
-    "textLink.activeForeground": "#EBEF15",
-
-
-    "activityBar.inactiveForeground": "#807694",
-    "activityBar.border": "#302546", // I don't know if we need this
-
     "icon.foreground": "#EF15BF",
-
-    "list.activeSelectionForeground": "#FFF",
+    "input.background": "#130E0F",
     "list.activeSelectionBackground": "#7315ef42",
+    "list.activeSelectionForeground": "#FFF",
+    "list.activeSelectionIconForeground": "#EF15BF", // outline, selected item icon colour
     "list.focusOutline": "#7515EF",
-    "list.inactiveSelectionIconForeground": "#E0DDE5",
     "list.hoverBackground": "#7515EF",
     "list.inactiveSelectionBackground": "#2B223F",
-    "list.activeSelectionIconForeground": "#EF15BF", // outline, selected item icon colour
-
-    "breadcrumb.background": "#130E0F",
-
-    "statusBar.background": "#15AEEF",
-    "statusBar.noFolderBackground": "#7515EF", // Keep this!!
-
-    "statusBar.foreground": "#FFFFFF",
+    "list.inactiveSelectionIconForeground": "#E0DDE5",
     "minimap.background": "#130E0F",
-    "titleBar.activeBackground": "#130E0F",
-    "editorGroupHeader.tabsBackground": "#130E0F",
-    "activityBar.background": "#130E0F",
-
-    "tab.inactiveForeground": "#BCB9C2",
-    "tab.activeForeground": "#FFFFFF",
-    "tab.inactiveBackground": "#130E0F",
+    "minimap.selectionHighlight": "#7515EF",
+    "notificationLink.foreground": "#EF1563",
+    "pickerGroup.foreground": "#15EFAE",
+    // TODO: Markdown styles
+    // TODO: JSON styles
+    "quickInput.background": "#130E0F",
+    "quickInput.foreground": "#D5D2DC",
+    // "quickInput.foreground": "#E0DDE5",
+    "quickInputList.focusBackground": "#EF1563", // nice
+    "quickInputList.focusForeground": "#FFF",
+    "quickInputList.focusIconForeground": "#FFF",
+    "scrollbarSlider.activeBackground": "#7515EF", // maybe?
+    // "sideBarSectionHeader.foreground": "", // Section headers, collapsible things
+    "scrollbarSlider.background": "#2B223F",
+    "scrollbarSlider.hoverBackground": "#2B223F",
+    "sideBar.background": "#130E0F",
+    "sideBar.border": "#EF15BF",
+    "sideBar.foreground": "#FFFFFF",
+    "sideBarSectionHeader.background": "#130E0F",
+    "sideBarSectionHeader.border": "#EF15BF",
+    "statusBar.background": "#15AEEF",
+    "statusBar.foreground": "#FFFFFF",
+    "statusBar.noFolderBackground": "#7515EF", // Keep this!!
     "tab.activeBackground": "#130E0F",
     "tab.activeBorder": "#EF1563",
-
-    "editor.wordHighlightBackground": "#382C51",
-    "editor.wordHighlightStrongBackground": "#382C51",
-
-    "editorLineNumber.activeForeground": "#EF15BF",
-    // "editorLineNumber.foreground": "#807694", // this is nice but may be harder to read
-    "editorLineNumber.foreground": "#BCB9C2",
-
-    "editorCursor.foreground": "#FFF",
-
-    "editor.lineHighlightBackground": "#2B223F",
-    "editor.lineHighlightBorder": "#463767",
-
-    // ??? can't test
-    // "list.highlightForeground": "#5E81AC",
-
-    // What's this???
-    // "editorLineNumber.activeForeground": "#eeffff",
-
-    "focusBorder": "#15EFAE",
-
-    "activityBarBadge.background": "#EF15BF",
-    // "sideBarTitle.foreground": "#EF15BF",
-    "editorError.foreground": "#EF1563"
+    "tab.activeForeground": "#FFFFFF",
+    "tab.inactiveBackground": "#130E0F",
+    "tab.inactiveForeground": "#BCB9C2",
+    "terminal.ansiBlack": "#130E0F",
+    "terminal.ansiBlue": "#15AEEF",
+    "terminal.ansiBrightBlack": "#807694",
+    "terminal.ansiBrightBlue": "#15AEEF",
+    "terminal.ansiBrightCyan": "#15EFAE",
+    "terminal.ansiBrightGreen": "#15EFAE",
+    "terminal.ansiBrightMagenta": "#EF15BF",
+    "terminal.ansiBrightRed": "#EF1563",
+    "terminal.ansiBrightWhite": "#FFF",
+    "terminal.ansiBrightYellow": "#EBEF15",
+    "terminal.ansiCyan": "#15EFAE",
+    "terminal.ansiGreen": "#15EFAE",
+    "terminal.ansiMagenta": "#EF15BF",
+    "terminal.ansiRed": "#EF1563",
+    "terminal.ansiWhite": "#E0DDE5",
+    "terminal.ansiYellow": "#EBEF15",
+    "terminal.background": "#130E0F",
+    "terminal.foreground": "#E0DDE5",
+    "textLink.activeForeground": "#EBEF15",
+    // "button.foreground": "#130E0F",
+    "textLink.foreground": "#EF15BF",
+    "titleBar.activeBackground": "#130E0F"
   },
+  "name": "CMYK colourrrs",
   "tokenColors": [
     // {
     //   "name": "Errors???",
@@ -176,7 +142,7 @@
     {
       "name": "Variables",
       "scope": [
-        "variable",
+        "variable"
       ],
       "settings": {
         "foreground": "#E0DDE5"
@@ -213,7 +179,7 @@
     {
       "name": "Keyword",
       "scope": [
-        "keyword",
+        "keyword"
       ],
       "settings": {
         "foreground": "#B596F8"
@@ -234,13 +200,9 @@
       "scope": [
         // confirmed
         "keyword.control",
-
         // unconfirmed
         "constant.other.color",
-
-
         "punctuation.separator.inheritance.php",
-
         "keyword.other.template",
         "keyword.other.substitution"
       ],
@@ -248,35 +210,24 @@
         "foreground": "#EF15BF"
       }
     },
-
     {
       "name": "Object properties??",
       "scope": [
-        "meta.tag",
-
+        "meta.tag"
       ],
       "settings": {
         "foreground": "#E0DDE5"
-
       }
-
     },
-
-
     {
       "name": "Testing!!!",
       "scope": [
-
         // "punctuation.definition.tag",
       ],
       "settings": {
         "foreground": "#FF0000"
-
       }
-
     },
-
-
     {
       "name": "HTML angle brackets, colons, apostrophes",
       "scope": [
@@ -289,12 +240,10 @@
         "foreground": "#EBEF15"
       }
     },
-
-
     {
       "name": "Braces around objects in React",
       "scope": [
-        "punctuation.section.embedded",
+        "punctuation.section.embedded"
       ],
       "settings": {
         "foreground": "#7515EF"
@@ -313,13 +262,12 @@
     {
       "name": "HTML tag",
       "scope": [
-        "entity.name.tag",
+        "entity.name.tag"
       ],
       "settings": {
         "foreground": "#EF15BF"
       }
     },
-
     // this is good, don't touch it
     {
       "name": "Function, Special Method",
@@ -334,8 +282,6 @@
         "foreground": "#15EFAE"
       }
     },
-
-
     // this is good!
     {
       "name": "Block Level Variables, e.g. thing in const thing = 1",
@@ -346,7 +292,6 @@
         "foreground": "#D5D2DC"
       }
     },
-
     // ???
     {
       "name": "Other Variable, String Link",
@@ -358,7 +303,6 @@
         "foreground": "#15EFAE"
       }
     },
-
     {
       "name": "Function Argument",
       "scope": [
@@ -385,7 +329,7 @@
     {
       "name": "CSS unit",
       "scope": [
-        "keyword.other.unit",
+        "keyword.other.unit"
       ],
       "settings": {
         "foreground": "#EF15BF"
@@ -403,7 +347,7 @@
     {
       "name": "String",
       "scope": [
-        "string",
+        "string"
       ],
       "settings": {
         "foreground": "#B596F8"
@@ -423,7 +367,6 @@
         "foreground": "#EF9815"
       }
     },
-
     {
       "name": "Class, Support",
       "scope": [
@@ -433,23 +376,21 @@
         "meta.use.php",
         "support.other.namespace.php",
         "markup.changed.git_gutter",
-        "support.type.sys-types",
+        "support.type.sys-types"
       ],
       "settings": {
         "foreground": "#15AEEF"
       }
     },
-
     {
       "name": "Entity name, e.g. class name and TS types",
       "scope": [
-        "entity.name",
+        "entity.name"
       ],
       "settings": {
         "foreground": "#15AEEF"
       }
     },
-
     {
       "name": "Entity Types",
       "scope": [
@@ -473,7 +414,6 @@
         "foreground": "#D5D2DC"
       }
     },
-
     // ??? doesn't work
     // {
     //   "name": "CSS Class and Support - Property Value",
@@ -489,7 +429,6 @@
     //     "foreground": "#E0DDE5"
     //   }
     // },
-    
     {
       "name": "Sub-methods",
       "scope": [
@@ -540,7 +479,6 @@
         "foreground": "#15EFAE"
       }
     },
-
     // these aren't HTML attributes???
     {
       "name": "HTML Attributes",
@@ -553,7 +491,6 @@
         "foreground": "#15AEEF"
       }
     },
-
     {
       "name": "CSS Classes",
       "scope": [
@@ -650,87 +587,6 @@
       }
     },
     {
-      "name": "JSON Key - Level 0",
-      "scope": [
-        "source.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#B596F8"
-      }
-    },
-    {
-      "name": "JSON Key - Level 1",
-      "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#15AEEF"
-      }
-    },
-    {
-      "name": "JSON Key - Level 2",
-      "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#EF15BF"
-      }
-    },
-    {
-      "name": "JSON Key - Level 3",
-      "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#EF1563"
-      }
-    },
-    {
-      "name": "JSON Key - Level 4",
-      "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#C17E70"
-      }
-    },
-    {
-      "name": "JSON Key - Level 5",
-      "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#15EFAE"
-      }
-    },
-    {
-      "name": "JSON Key - Level 6",
-      "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#15EFAE"
-      }
-    },
-    {
-      "name": "JSON Key - Level 7",
-      "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#B596F8"
-      }
-    },
-    {
-      "name": "JSON Key - Level 8",
-      "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
-      ],
-      "settings": {
-        "foreground": "#EF9815"
-      }
-    },
-    {
       "name": "Markdown - Plain",
       "scope": [
         "text.html.markdown",
@@ -755,18 +611,26 @@
         "text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown"
       ],
       "settings": {
-        "foreground": "#65737E"
+        "foreground": "#807694"
       }
     },
     {
-      "name": "Markdown - Heading",
+      "name": "Markdown - Heading (symbol)",
       "scope": [
         "markdown.heading",
         "markup.heading | markup.heading entity.name",
         "markup.heading.markdown punctuation.definition.heading.markdown"
       ],
       "settings": {
-        "foreground": "#EF9815"
+        "fontStyle": "bold",
+        "foreground": "#EBEF15"
+      }
+    },
+    {
+      "name": "Markdown - Heading (text)",
+      "scope": "entity.name.section.markdown",
+      "settings": {
+        "fontStyle": "bold"
       }
     },
     {
@@ -801,7 +665,7 @@
         "markup.quote markup.bold string"
       ],
       "settings": {
-        "fontStyle": "bold",
+        "fontStyle": "italic bold",
         "foreground": "#15EFAE"
       }
     },
@@ -821,7 +685,7 @@
         "markup.quote punctuation.definition.blockquote.markdown"
       ],
       "settings": {
-        "foreground": "#65737E"
+        "foreground": "#807694"
       }
     },
     {
@@ -904,7 +768,7 @@
         "variable.language.fenced.markdown"
       ],
       "settings": {
-        "foreground": "#65737E"
+        "foreground": "#807694"
       }
     },
     {
@@ -914,7 +778,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#65737E"
+        "foreground": "#807694"
       }
     },
     {
@@ -924,6 +788,140 @@
       ],
       "settings": {
         "foreground": "#E0DDE5"
+      }
+    },
+    // JSON
+    {
+      "name": "JSON Key - Level 0",
+      "scope": [
+        "source.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#EF15BF"
+      }
+    },
+    {
+      "name": "JSON Key - Level 1",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#EBEF15"
+      }
+    },
+    {
+      "name": "JSON Key - Level 2",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#15AEEF"
+      }
+    },
+    {
+      "name": "JSON Key - Level 3",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#15EFAE"
+      }
+    },
+    {
+      "name": "JSON Key - Level 4",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#EF9815"
+      }
+    },
+    {
+      "name": "JSON Key - Level 5",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#EF1563"
+      }
+    },
+    {
+      "name": "JSON Key - Level 6",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#EF15BF"
+      }
+    },
+    {
+      "name": "JSON Key - Level 7",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#EBEF15"
+      }
+    },
+    {
+      "name": "JSON Key - Level 8",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#7515EF"
+      }
+    },
+    {
+      "name": "JSON Key - Level 9",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#EF15BF"
+      }
+    },
+    {
+      "name": "JSON Key - Level 10",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#EBEF15"
+      }
+    },
+    {
+      "name": "JSON Key - Level 11",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#15AEEF"
+      }
+    },
+    {
+      "name": "JSON Key - Level 12",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#15EFAE"
+      }
+    },
+    {
+      "name": "JSON Key - Level 13",
+      "scope": [
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#807694"
       }
     }
   ]
