@@ -3,16 +3,33 @@
   "colors": {
     "editor.background": "#221B32",
     "editor.foreground": "#E0DDE5",
-
-    // REF: https://www.alveeakand.com/how-to-modify-themes-in-vscode/
-    // TODO: change all these
     "sideBar.foreground": "#FFFFFF",
     "sideBar.background": "#130E0F",
     "sideBar.border": "#EF15BF",
     "sideBarSectionHeader.border": "#EF15BF",
     "sideBarSectionHeader.background": "#130E0F",
-
     "editorLink.activeForeground": "#15EFAE",
+
+    "terminal.background":"#130E0F",
+    "terminal.foreground":"#E0DDE5",
+    "terminal.ansiBlack":"#130E0F",
+    "terminal.ansiBrightBlack":"#807694",
+    "terminal.ansiBrightBlue":"#15AEEF",
+    "terminal.ansiBrightCyan":"#15EFAE",
+    "terminal.ansiBrightGreen":"#15EFAE",
+    "terminal.ansiBrightMagenta":"#EF15BF",
+    "terminal.ansiBrightRed":"#EF1563",
+    "terminal.ansiBrightWhite":"#FFF",
+    "terminal.ansiBrightYellow":"#EBEF15",
+    "terminal.ansiBlue":"#15AEEF",
+    "terminal.ansiCyan":"#15EFAE",
+    "terminal.ansiGreen":"#15EFAE",
+    "terminal.ansiMagenta":"#EF15BF",
+    "terminal.ansiRed":"#EF1563",
+    "terminal.ansiWhite":"#E0DDE5",
+    "terminal.ansiYellow":"#EBEF15",
+
+    "input.background": "#130E0F",
 
 
     // "editor.selectionBackground": "#130E0F", // maybe?? dark, high contrast
@@ -26,7 +43,25 @@
 
     "editorWhitespace.foreground": "#2B223F",
 
+    "pickerGroup.foreground": "#15EFAE",
+    
+    "quickInput.background": "#130E0F",
+    
+    "quickInput.foreground": "#D5D2DC",
+    // "quickInput.foreground": "#E0DDE5",
 
+    "quickInputList.focusBackground": "#EF1563", // nice
+    "quickInputList.focusForeground": "#FFF",
+    "quickInputList.focusIconForeground": "#FFF",
+    
+    "notificationLink.foreground": "#EF1563",
+    
+
+    // Git filename colours?
+    // "gitDecoration.untrackedResourceForeground": "#ff0000",
+    "gitDecoration.addedResourceForeground": "#15EFAE",
+    "gitDecoration.deletedResourceForeground": "#EF1563",
+    
 
     // TODO: style later??
     "diffEditorGutter.insertedLineBackground": "#15efae2f",
@@ -66,8 +101,6 @@
 
     "icon.foreground": "#EF15BF",
 
-
-
     "list.activeSelectionForeground": "#FFF",
     "list.activeSelectionBackground": "#7315ef42",
     "list.focusOutline": "#7515EF",
@@ -93,6 +126,17 @@
     "tab.activeBackground": "#130E0F",
     "tab.activeBorder": "#EF1563",
 
+    "editor.wordHighlightBackground": "#382C51",
+    "editor.wordHighlightStrongBackground": "#382C51",
+
+    "editorLineNumber.activeForeground": "#EF15BF",
+    // "editorLineNumber.foreground": "#807694", // this is nice but may be harder to read
+    "editorLineNumber.foreground": "#BCB9C2",
+
+    "editorCursor.foreground": "#FFF",
+
+    "editor.lineHighlightBackground": "#2B223F",
+    "editor.lineHighlightBorder": "#463767",
 
     // ??? can't test
     // "list.highlightForeground": "#5E81AC",
@@ -100,8 +144,10 @@
     // What's this???
     // "editorLineNumber.activeForeground": "#eeffff",
 
+    "focusBorder": "#15EFAE",
+
     "activityBarBadge.background": "#EF15BF",
-    "sideBarTitle.foreground": "#EF15BF",
+    // "sideBarTitle.foreground": "#EF15BF",
     "editorError.foreground": "#EF1563"
   },
   "tokenColors": [
@@ -159,7 +205,7 @@
         "invalid.illegal"
       ],
       "settings": {
-        "foreground": "#FF5370"
+        "foreground": "#EF1563"
       }
     },
     {
@@ -327,8 +373,17 @@
         "support.constant",
         "constant.character",
         "constant.escape",
-        "keyword.other.unit",
+        // "keyword.other.unit",
         "keyword.other"
+      ],
+      "settings": {
+        "foreground": "#EF15BF"
+      }
+    },
+    {
+      "name": "CSS unit",
+      "scope": [
+        "keyword.other.unit",
       ],
       "settings": {
         "foreground": "#EF15BF"
@@ -340,7 +395,7 @@
         "constant.numeric"
       ],
       "settings": {
-        "foreground": "#EBEF15"
+        "foreground": "#EF9815"
       }
     },
     {
@@ -377,7 +432,6 @@
         "support.other.namespace.php",
         "markup.changed.git_gutter",
         "support.type.sys-types",
-
       ],
       "settings": {
         "foreground": "#15AEEF"
@@ -400,7 +454,7 @@
         "support.type"
       ],
       "settings": {
-        "foreground": "#B2CCD6"
+        "foreground": "#E0DDE5"
       }
     },
     {
@@ -414,9 +468,26 @@
         "source.postcss support.type.property-name"
       ],
       "settings": {
-        "foreground": "#B2CCD6"
+        "foreground": "#D5D2DC"
       }
     },
+
+    // ??? doesn't work
+    // {
+    //   "name": "CSS Class and Support - Property Value",
+    //   "scope": [
+    //     "source.css support.type.property-value",
+    //     "source.sass support.type.property-value",
+    //     "source.scss support.type.property-value",
+    //     "source.less support.type.property-value",
+    //     "source.stylus support.type.property-value",
+    //     "source.postcss support.type.property-value"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#E0DDE5"
+    //   }
+    // },
+    
     {
       "name": "Sub-methods",
       "scope": [
@@ -425,7 +496,7 @@
         "variable.other.class.js"
       ],
       "settings": {
-        "foreground": "#FF5370"
+        "foreground": "#EF1563"
       }
     },
     {
@@ -435,7 +506,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#FF5370"
+        "foreground": "#EF1563"
       }
     },
     {
@@ -487,7 +558,7 @@
         "entity.other.attribute-name.class"
       ],
       "settings": {
-        "foreground": "#15AEEF"
+        "foreground": "#B596F8"
       }
     },
     {
@@ -514,7 +585,7 @@
         "markup.deleted"
       ],
       "settings": {
-        "foreground": "#FF5370"
+        "foreground": "#EF1563"
       }
     },
     {
@@ -573,7 +644,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#FF5370"
+        "foreground": "#EF1563"
       }
     },
     {
@@ -609,7 +680,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#FF5370"
+        "foreground": "#EF1563"
       }
     },
     {
