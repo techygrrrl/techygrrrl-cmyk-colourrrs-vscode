@@ -16,6 +16,10 @@
 
 ## Screenshots
 
+### JavaScript, HTML, CSS
+
+![web project](screenshots/web-project.png)
+
 ### Terminal
 
 ![Terminal screenshot](screenshots/vs-code-terminal-01.png)
