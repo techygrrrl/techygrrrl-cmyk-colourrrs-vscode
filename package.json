@@ -1,0 +1,28 @@
+{
+  "name": "cmyk-colourrrs",
+  "displayName": "cmyk-colourrrs",
+  "description": "CMYK colourrrs is a colour theme for VSCode with both light and dark variants",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.66.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "scripts": {
+    "yo": "yo"
+  },
+  "devDependencies": {
+    "generator-code": "^1.6.10",
+    "yo": "^4.3.0"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "CMYK colourrrs",
+        "uiTheme": "vs-dark",
+        "path": "./themes/CMYK colourrrs-color-theme.json"
+      }
+    ]
+  }
+}
