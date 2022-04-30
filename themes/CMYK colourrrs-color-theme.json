@@ -44,6 +44,8 @@
     "editorWhitespace.foreground": "#2B223F",
 
     "pickerGroup.foreground": "#15EFAE",
+
+    "listFilterWidget.background": "#ff0000",
     
     "quickInput.background": "#130E0F",
     
