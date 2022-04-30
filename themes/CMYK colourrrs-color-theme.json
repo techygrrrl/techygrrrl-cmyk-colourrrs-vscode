@@ -13,6 +13,30 @@
     "activityBarBadge.background": "#EF15BF",
     "breadcrumb.background": "#130E0F",
     "button.background": "#7515EF",
+    "debugConsole.errorForeground": "#EF1563",
+    "debugConsole.warningForeground": "#EBEF15",
+    "debugIcon.breakpointCurrentStackframeForeground": "#EBEF15",
+    "debugIcon.breakpointDisabledForeground": "#ff00002f",
+    "debugIcon.breakpointForeground": "#EF1563",
+    "debugIcon.continueForeground": "#15EFAE",
+    "debugIcon.pauseForeground": "#15AEEF",
+    "debugIcon.restartForeground": "#15EFAE",
+    "debugIcon.startForeground": "#15EFAE",
+    "debugIcon.stepBackForeground": "#15AEEF",
+    "debugIcon.stepIntoForeground": "#15AEEF",
+    "debugIcon.stepOutForeground": "#15AEEF",
+    "debugIcon.stepOverForeground": "#15AEEF",
+    "debugIcon.stopForeground": "#EF1563",
+    "debugTokenExpression.boolean": "#EF15BF",
+    // "editor.focusedStackFrameHighlightBackground": "#ff0000", // ??
+    // "editor.inlineValuesBackground": "#ff0000",
+    "debugTokenExpression.error": "#EF1563",
+    "debugTokenExpression.number": "#EF9815",
+    "debugTokenExpression.string": "#B596F8",
+    // "debugTokenExpression.name": "#ff0000",
+    "debugTokenExpression.value": "#FFF",
+    // "debugConsole.sourceForeground": "#ff0000",
+    "debugToolBar.background": "#2B223F",
     // TODO: style later??
     "diffEditor.insertedTextBackground": "#15efae1a",
     "diffEditor.removedTextBackground": "#ef15611e",
@@ -29,6 +53,7 @@
     // "editor.selectionBackground": "#130E0F", // maybe?? dark, high contrast
     // "editor.selectionBackground": "#2B223F", // nice, lacks contrast
     "editor.selectionBackground": "#382C51", // nice, more normal, decent contrast
+    "editor.stackFrameHighlightBackground": "#7515EF",
     "editor.wordHighlightBackground": "#382C51",
     "editor.wordHighlightStrongBackground": "#382C51",
     "editorCursor.foreground": "#FFF",
@@ -87,6 +112,8 @@
     "sideBarSectionHeader.background": "#130E0F",
     "sideBarSectionHeader.border": "#EF15BF",
     "statusBar.background": "#15AEEF",
+    "statusBar.debuggingBackground": "#EF9815",
+    "statusBar.debuggingForeground": "#FFF",
     "statusBar.foreground": "#FFFFFF",
     "statusBar.noFolderBackground": "#7515EF", // Keep this!!
     "tab.activeBackground": "#130E0F",
