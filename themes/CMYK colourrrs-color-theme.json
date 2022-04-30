@@ -95,7 +95,6 @@
     "notificationLink.foreground": "#EF1563",
     "pickerGroup.foreground": "#15EFAE",
     // TODO: Markdown styles
-    // TODO: JSON styles
     "quickInput.background": "#130E0F",
     "quickInput.foreground": "#D5D2DC",
     // "quickInput.foreground": "#E0DDE5",
@@ -834,7 +833,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#EBEF15"
+        "foreground": "#15EFAE"
       }
     },
     {
@@ -853,7 +852,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#15EFAE"
+        "foreground": "#EF1563"
       }
     },
     {
@@ -872,7 +871,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#EF1563"
+        "foreground": "#EBEF15"
       }
     },
     {
@@ -891,7 +890,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#EBEF15"
+        "foreground": "#15EFAE"
       }
     },
     {
@@ -900,7 +899,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#7515EF"
+        "foreground": "#15AEEF"
       }
     },
     {
@@ -910,7 +909,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#EF15BF"
+        "foreground": "#EF1563"
       }
     },
     {
@@ -919,7 +918,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#EBEF15"
+        "foreground": "#EF9815"
       }
     },
     {
@@ -929,7 +928,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#15AEEF"
+        "foreground": "#EBEF15"
       }
     },
     {
@@ -938,7 +937,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#15EFAE"
+        "foreground": "#EF15BF"
       }
     },
     {
@@ -948,7 +947,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#807694"
+        "foreground": "#7515EF"
       }
     }
   ]
