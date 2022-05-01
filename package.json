@@ -1,7 +1,7 @@
 {
-  "name": "cmyk-colourrrs",
-  "displayName": "cmyk-colourrrs",
-  "description": "CMYK colourrrs is a colour theme for VSCode with both light and dark variants",
+  "name": "techygrrrl-cmyk-colourrrs",
+  "displayName": "CMYK colourrrs",
+  "description": "CMYK colourrrs is a colour theme for Visual Studio Code with both light and dark variants",
   "version": "0.0.1",
   "repository": {
     "url": "https://github.com/techygrrrl/techygrrrl-cmyk-colourrrs-vscode"

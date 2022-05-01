@@ -7,37 +7,47 @@
 <p align="center">
   <strong>CMYK colourrrs</strong> for Visual Studio Code is colour theme with both dark and light variants.
 </p>
+<p align="center">
+  by <a href="https://techygrrrl.stream">techygrrrl</a>
+</p>
 
 
-## Usage
+Usage:
 
-Install from the Visual Studio Code marketplace like any other theme.
-
-
-## Development
-
-1. Press F5 to start the development environment
+1. Install from the Visual Studio Code marketplace like any other theme.
 
 
-## Screenshots
 
-### Dark
+## Dark
 
-#### JavaScript, HTML, CSS
+### JavaScript, HTML, CSS
 
 ![web project](screenshots/web-project-dark.png)
 
-#### Terminal
+### Terminal
 
 ![Terminal screenshot](screenshots/terminal-dark.png)
 
 
-### Light
+## Light
 
-#### JavaScript, HTML, CSS
+### JavaScript, HTML, CSS
 
 ![web project](screenshots/web-project-light.png)
 
-#### Terminal
+### Terminal
 
 ![Terminal screenshot](screenshots/terminal-light.png)
+
+
+
+
+## Contributing
+
+Please see the [Contributing guidelines](CONTRIBUTING.md) for information about logging bugs and helping out before beginning any work.
+
+
+### Development
+
+1. Press F5 to start the development environment
+
