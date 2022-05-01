@@ -16,10 +16,23 @@
 
 ## Screenshots
 
-### JavaScript, HTML, CSS
+### Dark
 
-![web project](screenshots/web-project.png)
+#### JavaScript, HTML, CSS
 
-### Terminal
+![web project](screenshots/web-project-dark.png)
 
-![Terminal screenshot](screenshots/vs-code-terminal-01.png)
+#### Terminal
+
+![Terminal screenshot](screenshots/terminal-dark.png)
+
+
+### Light
+
+#### JavaScript, HTML, CSS
+
+![web project](screenshots/web-project-light.png)
+
+#### Terminal
+
+![Terminal screenshot](screenshots/terminal-light.png)

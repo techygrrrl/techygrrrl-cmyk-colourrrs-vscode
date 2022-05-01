@@ -58,6 +58,7 @@
     "editorCursor.foreground": "#EF15BF",
     // "sideBarTitle.foreground": "#EF15BF",
     "editorError.foreground": "#EF1563",
+    "editorWarning.foreground": "#EF9815",
     "editorGroupHeader.tabsBackground": "#FFFFFF",
     "editorGutter.addedBackground": "#00cc8f",
     "editorGutter.background": "#e0dde57e",
@@ -133,9 +134,9 @@
     "terminal.ansiGreen": "#00cc8f",
     "terminal.ansiMagenta": "#EF15BF",
     "terminal.ansiRed": "#EF1563",
-    "terminal.ansiWhite": "#E0DDE5",
+    "terminal.ansiWhite": "#FFFFFF",
     "terminal.ansiYellow": "#EBEF15",
-    "terminal.background": "#E0DDE5",
+    "terminal.background": "#FFFFFF",
     "terminal.foreground": "#130E0F",
     // TODO: test outside of project
     "textLink.activeForeground": "#15AEEF",
@@ -420,7 +421,7 @@
         "source.postcss support.type.property-name"
       ],
       "settings": {
-        "foreground": "#D5D2DC"
+        "foreground": "#463767"
       }
     },
     // ??? doesn't work
@@ -506,7 +507,7 @@
         "entity.other.attribute-name.class"
       ],
       "settings": {
-        "foreground": "#B596F8"
+        "foreground": "#15AEEF"
       }
     },
     {

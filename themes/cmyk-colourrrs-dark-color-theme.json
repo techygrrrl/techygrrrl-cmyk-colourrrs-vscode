@@ -59,6 +59,7 @@
     "editorCursor.foreground": "#FFF",
     // "sideBarTitle.foreground": "#EF15BF",
     "editorError.foreground": "#EF1563",
+    "editorWarning.foreground": "#EF9815",
     "editorGroupHeader.tabsBackground": "#130E0F",
     "editorGutter.addedBackground": "#15EFAE",
     "editorGutter.background": "#130E0F",
@@ -514,7 +515,7 @@
         "entity.other.attribute-name.class"
       ],
       "settings": {
-        "foreground": "#B596F8"
+        "foreground": "#15AEEF"
       }
     },
     {
