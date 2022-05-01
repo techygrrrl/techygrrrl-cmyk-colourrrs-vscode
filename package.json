@@ -3,9 +3,22 @@
   "displayName": "CMYK colourrrs",
   "description": "CMYK colourrrs is a colour theme for Visual Studio Code with both light and dark variants",
   "version": "0.0.1",
+  "publisher": "techygrrrl",
   "repository": {
     "url": "https://github.com/techygrrrl/techygrrrl-cmyk-colourrrs-vscode"
   },
+  "keywords": [
+    "bright",
+    "pink",
+    "yellow",
+    "blue",
+    "green",
+    "red",
+    "cmyk",
+    "retro",
+    "dark",
+    "light"
+  ],
   "engines": {
     "vscode": "^1.66.0"
   },
