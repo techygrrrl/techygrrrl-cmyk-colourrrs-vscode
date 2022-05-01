@@ -11,6 +11,11 @@
 
 ## Usage
 
+Install from the Visual Studio Code marketplace like any other theme.
+
+
+## Development
+
 1. Press F5 to start the development environment
 
 
