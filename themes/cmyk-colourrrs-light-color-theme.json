@@ -4,13 +4,13 @@
     // "activityBar.activeFocusBorder": "#00cc8f",
     "activityBar.activeBorder": "#15AEEF",
     "activityBar.activeFocusBorder": "#15AEEF",
-
     "activityBar.background": "#FFFFFF",
     "activityBar.border": "#E0DDE5",
     "activityBar.foreground": "#130E0F",
     "activityBar.inactiveForeground": "#807694",
     "activityBarBadge.background": "#EF15BF",
     "breadcrumb.background": "#FFFFFF",
+    "breadcrumb.foreground": "#130E0F",
     "button.background": "#7515EF",
     "debugConsole.errorForeground": "#EF1563",
     "debugConsole.warningForeground": "#EBEF15",
@@ -70,7 +70,7 @@
     // "editorLineNumber.foreground": "#807694", // this is nice but may be harder to read
     "editorLineNumber.foreground": "#221B32",
     "editorLink.activeForeground": "#00cc8f",
-    "editorWhitespace.foreground": "#BCB9C2",
+    "editorWhitespace.foreground": "#8076945e",
     // ??? can't test
     // "list.highlightForeground": "#5E81AC",
     // What's this???
@@ -82,13 +82,13 @@
     "gitDecoration.deletedResourceForeground": "#EF1563",
     "icon.foreground": "#EF15BF",
     "input.background": "#FFFFFF",
-    "list.activeSelectionBackground": "#B596F8",
+    "list.activeSelectionBackground": "#b596f847",
     "list.activeSelectionForeground": "#130E0F",
     "list.activeSelectionIconForeground": "#EF15BF", // outline, selected item icon colour
     "list.focusOutline": "#7515EF",
     "list.hoverBackground": "#ef15c03f",
     "list.hoverForeground": "#130E0F",
-    "list.inactiveSelectionBackground": "#D5D2DC",
+    "list.inactiveSelectionBackground": "#b596f847",
     "list.inactiveSelectionIconForeground": "#221B32",
     "minimap.background": "#FFFFFF",
     "minimap.selectionHighlight": "#7515EF",
@@ -102,7 +102,7 @@
     "quickInputList.focusIconForeground": "#FFF",
     "scrollbarSlider.activeBackground": "#7515EF", // maybe?
     // "sideBarSectionHeader.foreground": "#ff0000",
-    "scrollbarSlider.background": "#807694",
+    "scrollbarSlider.background": "#7315ef18",
     "scrollbarSlider.hoverBackground": "#B596F8",
     "sideBar.background": "#FFFFFF",
     "sideBar.border": "#EF15BF",
@@ -162,7 +162,7 @@
         "variable"
       ],
       "settings": {
-        "foreground": "#221B32"
+        "foreground": "#130E0F"
       }
     },
     {
@@ -358,7 +358,8 @@
         "string"
       ],
       "settings": {
-        "foreground": "#B596F8"
+        "fontStyle": "italic",
+        "foreground": "#463767"
       }
     },
     {
@@ -767,7 +768,7 @@
         "punctuation.section.class.end"
       ],
       "settings": {
-        "foreground": "#E0DDE5"
+        "foreground": "#130E0F"
       }
     },
     {
@@ -776,7 +777,7 @@
         "variable.language.fenced.markdown"
       ],
       "settings": {
-        "foreground": "#807694"
+        "foreground": "#221B32"
       }
     },
     {
