@@ -1,27 +1,26 @@
 {
   "colors": {
-    // "activityBar.activeBorder": "#15EFAE",
-    // "activityBar.activeFocusBorder": "#15EFAE",
-    "activityBar.activeBorder": "#EBEF15",
-    "activityBar.activeFocusBorder": "#EBEF15",
-    "activityBar.background": "#130E0F",
-    "activityBar.border": "#302546", // I don't know if we need this
-    // "scrollbarSlider.activeBackground": "#15EFAE", // maybe?
-    // "activityBar.activeFocusBorder": "#ff0000", // what's this????
-    "activityBar.foreground": "#FFFFFF",
+    // "activityBar.activeBorder": "#00cc8f",
+    // "activityBar.activeFocusBorder": "#00cc8f",
+    "activityBar.activeBorder": "#15AEEF",
+    "activityBar.activeFocusBorder": "#15AEEF",
+
+    "activityBar.background": "#FFFFFF",
+    "activityBar.border": "#E0DDE5",
+    "activityBar.foreground": "#130E0F",
     "activityBar.inactiveForeground": "#807694",
     "activityBarBadge.background": "#EF15BF",
-    "breadcrumb.background": "#130E0F",
+    "breadcrumb.background": "#FFFFFF",
     "button.background": "#7515EF",
     "debugConsole.errorForeground": "#EF1563",
     "debugConsole.warningForeground": "#EBEF15",
     "debugIcon.breakpointCurrentStackframeForeground": "#EBEF15",
     "debugIcon.breakpointDisabledForeground": "#ff00002f",
     "debugIcon.breakpointForeground": "#EF1563",
-    "debugIcon.continueForeground": "#15EFAE",
+    "debugIcon.continueForeground": "#00cc8f",
     "debugIcon.pauseForeground": "#15AEEF",
-    "debugIcon.restartForeground": "#15EFAE",
-    "debugIcon.startForeground": "#15EFAE",
+    "debugIcon.restartForeground": "#00cc8f",
+    "debugIcon.startForeground": "#00cc8f",
     "debugIcon.stepBackForeground": "#15AEEF",
     "debugIcon.stepIntoForeground": "#15AEEF",
     "debugIcon.stepOutForeground": "#15AEEF",
@@ -34,126 +33,118 @@
     "debugTokenExpression.number": "#EF9815",
     "debugTokenExpression.string": "#B596F8",
     // "debugTokenExpression.name": "#ff0000",
-    "debugTokenExpression.value": "#FFF",
+    "debugTokenExpression.value": "#130E0F",
     // "debugConsole.sourceForeground": "#ff0000",
     "debugToolBar.background": "#2B223F",
     // TODO: style later??
-    "diffEditor.insertedTextBackground": "#15efae1a",
+    "diffEditor.insertedTextBackground": "#00cc8f1a",
     "diffEditor.removedTextBackground": "#ef15611e",
-    "diffEditorGutter.insertedLineBackground": "#15efae2f",
+    "diffEditorGutter.insertedLineBackground": "#00cc8f2f",
     "diffEditorGutter.removedLineBackground": "#ef15614f",
-    "editor.background": "#221B32",
+    "editor.background": "#FFFFFF",
     // Searching
-    "editor.findMatchBackground": "#7515EF22",
-    "editor.findMatchBorder": "#7515EF",
-    "editor.findMatchHighlightBackground": "#463767",
-    "editor.foreground": "#E0DDE5",
-    "editor.lineHighlightBackground": "#2B223F",
-    "editor.lineHighlightBorder": "#463767",
+    "editor.findMatchBackground": "#FFFFFF",
+    "editor.findMatchBorder": "#EF15BF",
+    "editor.findMatchHighlightBackground": "#ef15c01e",
+    "editor.foreground": "#130E0F",
+    "editor.lineHighlightBackground": "#e0dde546",
+    "editor.lineHighlightBorder": "#e0dde57c",
     // "editor.selectionBackground": "#130E0F", // maybe?? dark, high contrast
     // "editor.selectionBackground": "#2B223F", // nice, lacks contrast
-    "editor.selectionBackground": "#382C51", // nice, more normal, decent contrast
+    "editor.selectionBackground": "#8076942f", // nice, more normal, decent contrast
     "editor.stackFrameHighlightBackground": "#7515EF",
-    "editor.wordHighlightBackground": "#382C51",
-    "editor.wordHighlightStrongBackground": "#382C51",
-    "editorCursor.foreground": "#FFF",
+    "editor.wordHighlightBackground": "#ef15c01e",
+    "editor.wordHighlightStrongBackground": "#ef15c01e",
+    "editorCursor.foreground": "#EF15BF",
     // "sideBarTitle.foreground": "#EF15BF",
     "editorError.foreground": "#EF1563",
-    "editorGroupHeader.tabsBackground": "#130E0F",
-    "editorGutter.addedBackground": "#15EFAE",
-    "editorGutter.background": "#130E0F",
+    "editorGroupHeader.tabsBackground": "#FFFFFF",
+    "editorGutter.addedBackground": "#00cc8f",
+    "editorGutter.background": "#e0dde57e",
     "editorGutter.deletedBackground": "#EF1563",
     "editorGutter.foldingControlForeground": "#EF15BF",
     "editorGutter.modifiedBackground": "#EF9815",
     "editorIndentGuide.activeBackground": "#15AEEF",
-    "editorIndentGuide.background": "#463767",
+    "editorIndentGuide.background": "#E0DDE5",
     "editorLineNumber.activeForeground": "#EF15BF",
     // "editorLineNumber.foreground": "#807694", // this is nice but may be harder to read
-    "editorLineNumber.foreground": "#BCB9C2",
-    "editorLink.activeForeground": "#15EFAE",
-    "editorWhitespace.foreground": "#2B223F",
+    "editorLineNumber.foreground": "#221B32",
+    "editorLink.activeForeground": "#00cc8f",
+    "editorWhitespace.foreground": "#BCB9C2",
     // ??? can't test
     // "list.highlightForeground": "#5E81AC",
     // What's this???
     // "editorLineNumber.activeForeground": "#eeffff",
-    "focusBorder": "#15EFAE",
+    "focusBorder": "#00cc8f",
     // Git filename colours?
     // "gitDecoration.untrackedResourceForeground": "#ff0000",
-    "gitDecoration.addedResourceForeground": "#15EFAE",
+    "gitDecoration.addedResourceForeground": "#00cc8f",
     "gitDecoration.deletedResourceForeground": "#EF1563",
     "icon.foreground": "#EF15BF",
-    "input.background": "#130E0F",
-    "list.activeSelectionBackground": "#7315ef42",
-    "list.activeSelectionForeground": "#FFF",
+    "input.background": "#FFFFFF",
+    "list.activeSelectionBackground": "#B596F8",
+    "list.activeSelectionForeground": "#130E0F",
     "list.activeSelectionIconForeground": "#EF15BF", // outline, selected item icon colour
     "list.focusOutline": "#7515EF",
-    "list.hoverBackground": "#7515EF",
-    "list.inactiveSelectionBackground": "#2B223F",
-    "list.inactiveSelectionIconForeground": "#E0DDE5",
-    "minimap.background": "#130E0F",
+    "list.hoverBackground": "#ef15c03f",
+    "list.hoverForeground": "#130E0F",
+    "list.inactiveSelectionBackground": "#D5D2DC",
+    "list.inactiveSelectionIconForeground": "#221B32",
+    "minimap.background": "#FFFFFF",
     "minimap.selectionHighlight": "#7515EF",
     "notificationLink.foreground": "#EF1563",
-    "pickerGroup.foreground": "#15EFAE",
-    // TODO: Markdown styles
-    "quickInput.background": "#130E0F",
-    "quickInput.foreground": "#D5D2DC",
+    "pickerGroup.foreground": "#15AEEF",
+    "quickInput.background": "#E0DDE5",
+    "quickInput.foreground": "#130E0F",
     // "quickInput.foreground": "#E0DDE5",
     "quickInputList.focusBackground": "#EF1563", // nice
     "quickInputList.focusForeground": "#FFF",
     "quickInputList.focusIconForeground": "#FFF",
     "scrollbarSlider.activeBackground": "#7515EF", // maybe?
-    // "sideBarSectionHeader.foreground": "", // Section headers, collapsible things
-    "scrollbarSlider.background": "#2B223F",
-    "scrollbarSlider.hoverBackground": "#2B223F",
-    "sideBar.background": "#130E0F",
+    // "sideBarSectionHeader.foreground": "#ff0000",
+    "scrollbarSlider.background": "#807694",
+    "scrollbarSlider.hoverBackground": "#B596F8",
+    "sideBar.background": "#FFFFFF",
     "sideBar.border": "#EF15BF",
-    "sideBar.foreground": "#FFFFFF",
-    "sideBarSectionHeader.background": "#130E0F",
+    "sideBar.foreground": "#130E0F",
+    "sideBarSectionHeader.background": "#FFF",
     "sideBarSectionHeader.border": "#EF15BF",
     "statusBar.background": "#15AEEF",
     "statusBar.debuggingBackground": "#EF9815",
     "statusBar.debuggingForeground": "#FFF",
     "statusBar.foreground": "#FFFFFF",
-    "statusBar.noFolderBackground": "#7515EF", // Keep this!!
-    "tab.activeBackground": "#130E0F",
-    "tab.activeBorder": "#EF1563",
-    "tab.activeForeground": "#FFFFFF",
-    "tab.inactiveBackground": "#130E0F",
-    "tab.inactiveForeground": "#BCB9C2",
+    "statusBar.noFolderBackground": "#7515EF",
+    "tab.activeBackground": "#FFFFFF",
+    "tab.activeBorder": "#EF15BF",
+    "tab.activeForeground": "#130E0F",
+    "tab.inactiveBackground": "#FFFFFF",
+    "tab.inactiveForeground": "#807694",
     "terminal.ansiBlack": "#130E0F",
     "terminal.ansiBlue": "#15AEEF",
-    "terminal.ansiBrightBlack": "#807694",
+    "terminal.ansiBrightBlack": "#130E0F",
     "terminal.ansiBrightBlue": "#15AEEF",
-    "terminal.ansiBrightCyan": "#15EFAE",
-    "terminal.ansiBrightGreen": "#15EFAE",
+    "terminal.ansiBrightCyan": "#00cc8f",
+    "terminal.ansiBrightGreen": "#00cc8f",
     "terminal.ansiBrightMagenta": "#EF15BF",
     "terminal.ansiBrightRed": "#EF1563",
     "terminal.ansiBrightWhite": "#FFF",
     "terminal.ansiBrightYellow": "#EBEF15",
-    "terminal.ansiCyan": "#15EFAE",
-    "terminal.ansiGreen": "#15EFAE",
+    "terminal.ansiCyan": "#00cc8f",
+    "terminal.ansiGreen": "#00cc8f",
     "terminal.ansiMagenta": "#EF15BF",
     "terminal.ansiRed": "#EF1563",
     "terminal.ansiWhite": "#E0DDE5",
     "terminal.ansiYellow": "#EBEF15",
-    "terminal.background": "#130E0F",
-    "terminal.foreground": "#E0DDE5",
-    "textLink.activeForeground": "#EBEF15",
-    // "button.foreground": "#130E0F",
+    "terminal.background": "#E0DDE5",
+    "terminal.foreground": "#130E0F",
+    // TODO: test outside of project
+    "textLink.activeForeground": "#15AEEF",
+    // "button.foreground": "#E0DDE5",
     "textLink.foreground": "#EF15BF",
-    "titleBar.activeBackground": "#130E0F"
+    "titleBar.activeBackground": "#E0DDE5"
   },
   "name": "CMYK colourrrs",
   "tokenColors": [
-    // {
-    //   "name": "Errors???",
-    //   "scope": [
-    //     "editorError.foreground"
-    //   ],
-    //   "settings": {
-    //     "foreground": "#7f6d6d"
-    //   }
-    // },
     {
       "name": "Comment",
       "scope": [
@@ -171,7 +162,7 @@
         "variable"
       ],
       "settings": {
-        "foreground": "#E0DDE5"
+        "foreground": "#221B32"
       }
     },
     {
@@ -180,7 +171,7 @@
         "string constant.other.placeholder"
       ],
       "settings": {
-        "foreground": "#E0DDE5"
+        "foreground": "#221B32"
       }
     },
     {
@@ -189,7 +180,7 @@
         "constant.other.color"
       ],
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#221B32"
       }
     },
     {
@@ -242,16 +233,7 @@
         "meta.tag"
       ],
       "settings": {
-        "foreground": "#E0DDE5"
-      }
-    },
-    {
-      "name": "Testing!!!",
-      "scope": [
-        // "punctuation.definition.tag",
-      ],
-      "settings": {
-        "foreground": "#FF0000"
+        "foreground": "#463767"
       }
     },
     {
@@ -263,7 +245,7 @@
         "punctuation.definition.tag.end.html"
       ],
       "settings": {
-        "foreground": "#EBEF15"
+        "foreground": "#7515EF"
       }
     },
     {
@@ -282,7 +264,7 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#15EFAE"
+        "foreground": "#00cc8f"
       }
     },
     {
@@ -305,7 +287,7 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#15EFAE"
+        "foreground": "#00cc8f"
       }
     },
     // this is good!
@@ -315,7 +297,7 @@
         "meta.block variable.other"
       ],
       "settings": {
-        "foreground": "#D5D2DC"
+        "foreground": "#221B32"
       }
     },
     // ???
@@ -326,7 +308,7 @@
         "string.other.link"
       ],
       "settings": {
-        "foreground": "#15EFAE"
+        "foreground": "#00cc8f"
       }
     },
     {
@@ -483,7 +465,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#15EFAE"
+        "foreground": "#00cc8f"
       }
     },
     {
@@ -493,7 +475,7 @@
         "variable.function.constructor"
       ],
       "settings": {
-        "foreground": "#15EFAE"
+        "foreground": "#00cc8f"
       }
     },
     {
@@ -502,7 +484,7 @@
         "entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#15EFAE"
+        "foreground": "#00cc8f"
       }
     },
     // these aren't HTML attributes???
@@ -532,7 +514,7 @@
         "source.sass keyword.control"
       ],
       "settings": {
-        "foreground": "#15EFAE"
+        "foreground": "#00cc8f"
       }
     },
     {
@@ -599,7 +581,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#15EFAE"
+        "foreground": "#00cc8f"
       }
     },
     {
@@ -619,7 +601,7 @@
         "punctuation.definition.list_item.markdown"
       ],
       "settings": {
-        "foreground": "#E0DDE5"
+        "foreground": "#130E0F"
       }
     },
     {
@@ -649,7 +631,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#EBEF15"
+        "foreground": "#EF15BF"
       }
     },
     {
@@ -666,7 +648,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#15EFAE"
+        "foreground": "#00cc8f"
       }
     },
     {
@@ -677,7 +659,7 @@
       ],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#15EFAE"
+        "foreground": "#00cc8f"
       }
     },
     {
@@ -692,7 +674,7 @@
       ],
       "settings": {
         "fontStyle": "italic bold",
-        "foreground": "#15EFAE"
+        "foreground": "#00cc8f"
       }
     },
     {
@@ -729,7 +711,7 @@
         "string.other.link.title.markdown"
       ],
       "settings": {
-        "foreground": "#15EFAE"
+        "foreground": "#00cc8f"
       }
     },
     {
@@ -833,7 +815,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#15EFAE"
+        "foreground": "#00cc8f"
       }
     },
     {
@@ -871,7 +853,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#EBEF15"
+        "foreground": "#807694"
       }
     },
     {
@@ -890,7 +872,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#15EFAE"
+        "foreground": "#00cc8f"
       }
     },
     {
@@ -928,7 +910,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#EBEF15"
+        "foreground": "#807694"
       }
     },
     {

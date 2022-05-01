@@ -19,10 +19,16 @@
   "contributes": {
     "themes": [
       {
-        "label": "CMYK colourrrs",
+        "label": "CMYK colourrrs (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/cmyk-colourrrs-light-color-theme.json"
+      },
+      {
+        "label": "CMYK colourrrs (Dark)",
         "uiTheme": "vs-dark",
-        "path": "./themes/CMYK colourrrs-color-theme.json"
+        "path": "./themes/cmyk-colourrrs-dark-color-theme.json"
       }
+     
     ]
   }
 }
