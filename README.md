@@ -51,3 +51,9 @@ Please see the [Contributing guidelines](CONTRIBUTING.md) for information about 
 
 1. Press F5 to start the development environment
 
+
+### Distribution
+
+Package with:
+
+    vsce package
