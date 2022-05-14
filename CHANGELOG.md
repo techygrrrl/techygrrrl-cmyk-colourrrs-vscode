@@ -1,9 +1,14 @@
 # Change Log
 
-All notable changes to the "cmyk-colourrrs" extension will be documented in this file.
+- [v0.2.0](#v020)
+- [v0.1.0](#v010)
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## v0.2.0
 
-- Initial release
+Updates the bracket highlighting colours to CMYK colours.
+
+
+## v0.1.0
+
+Initial release with both dark and light colour themes.
