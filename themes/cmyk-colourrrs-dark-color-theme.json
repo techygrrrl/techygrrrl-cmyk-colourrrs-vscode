@@ -13,11 +13,11 @@
     "activityBarBadge.background": "#EF15BF",
     "breadcrumb.background": "#130E0F",
     "button.background": "#7515EF",
-    "debugConsole.errorForeground": "#EF1563",
+    "debugConsole.errorForeground": "#EF15BF",
     "debugConsole.warningForeground": "#EBEF15",
     "debugIcon.breakpointCurrentStackframeForeground": "#EBEF15",
     "debugIcon.breakpointDisabledForeground": "#ff00002f",
-    "debugIcon.breakpointForeground": "#EF1563",
+    "debugIcon.breakpointForeground": "#EF15BF",
     "debugIcon.continueForeground": "#15EFAE",
     "debugIcon.pauseForeground": "#15AEEF",
     "debugIcon.restartForeground": "#15EFAE",
@@ -26,11 +26,11 @@
     "debugIcon.stepIntoForeground": "#15AEEF",
     "debugIcon.stepOutForeground": "#15AEEF",
     "debugIcon.stepOverForeground": "#15AEEF",
-    "debugIcon.stopForeground": "#EF1563",
+    "debugIcon.stopForeground": "#EF15BF",
     "debugTokenExpression.boolean": "#EF15BF",
     // "editor.focusedStackFrameHighlightBackground": "#ff0000", // ??
     // "editor.inlineValuesBackground": "#ff0000",
-    "debugTokenExpression.error": "#EF1563",
+    "debugTokenExpression.error": "#EF15BF",
     "debugTokenExpression.number": "#EF9815",
     "debugTokenExpression.string": "#B596F8",
     // "debugTokenExpression.name": "#ff0000",
@@ -62,14 +62,14 @@
     "editorBracketHighlight.foreground4": "#7515EF",
     "editorBracketHighlight.foreground5": "#15EFAE",
     "editorBracketHighlight.foreground6": "#15AEEF",
-    "editorBracketHighlight.unexpectedBracket.foreground": "#EF1563",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#EF15BF",
     "editorCursor.foreground": "#FFF",
     // "sideBarTitle.foreground": "#EF15BF",
-    "editorError.foreground": "#EF1563",
+    "editorError.foreground": "#EF15BF",
     "editorGroupHeader.tabsBackground": "#130E0F",
     "editorGutter.addedBackground": "#15EFAE",
     "editorGutter.background": "#130E0F",
-    "editorGutter.deletedBackground": "#EF1563",
+    "editorGutter.deletedBackground": "#EF15BF",
     "editorGutter.foldingControlForeground": "#EF15BF",
     "editorGutter.modifiedBackground": "#EF9815",
     "editorIndentGuide.activeBackground": "#15AEEF",
@@ -88,7 +88,7 @@
     // Git filename colours?
     // "gitDecoration.untrackedResourceForeground": "#ff0000",
     "gitDecoration.addedResourceForeground": "#15EFAE",
-    "gitDecoration.deletedResourceForeground": "#EF1563",
+    "gitDecoration.deletedResourceForeground": "#EF15BF",
     "icon.foreground": "#EF15BF",
     "input.background": "#130E0F",
     "list.activeSelectionBackground": "#7315ef42",
@@ -100,13 +100,13 @@
     "list.inactiveSelectionIconForeground": "#E0DDE5",
     "minimap.background": "#130E0F",
     "minimap.selectionHighlight": "#7515EF",
-    "notificationLink.foreground": "#EF1563",
+    "notificationLink.foreground": "#EF15BF",
     "pickerGroup.foreground": "#15EFAE",
     // TODO: Markdown styles
     "quickInput.background": "#130E0F",
     "quickInput.foreground": "#D5D2DC",
     // "quickInput.foreground": "#E0DDE5",
-    "quickInputList.focusBackground": "#EF1563", // nice
+    "quickInputList.focusBackground": "#EF15BF", // nice
     "quickInputList.focusForeground": "#FFF",
     "quickInputList.focusIconForeground": "#FFF",
     "scrollbarSlider.activeBackground": "#7515EF", // maybe?
@@ -135,13 +135,13 @@
     "terminal.ansiBrightCyan": "#15EFAE",
     "terminal.ansiBrightGreen": "#15EFAE",
     "terminal.ansiBrightMagenta": "#EF15BF",
-    "terminal.ansiBrightRed": "#EF1563",
+    "terminal.ansiBrightRed": "#EF15BF",
     "terminal.ansiBrightWhite": "#FFF",
     "terminal.ansiBrightYellow": "#EBEF15",
     "terminal.ansiCyan": "#15EFAE",
     "terminal.ansiGreen": "#15EFAE",
     "terminal.ansiMagenta": "#EF15BF",
-    "terminal.ansiRed": "#EF1563",
+    "terminal.ansiRed": "#EF15BF",
     "terminal.ansiWhite": "#E0DDE5",
     "terminal.ansiYellow": "#EBEF15",
     "terminal.background": "#130E0F",
@@ -207,7 +207,7 @@
         "invalid.illegal"
       ],
       "settings": {
-        "foreground": "#EF1563"
+        "foreground": "#EF15BF"
       }
     },
     {
@@ -462,7 +462,7 @@
         "variable.other.class.js"
       ],
       "settings": {
-        "foreground": "#EF1563"
+        "foreground": "#EF15BF"
       }
     },
     {
@@ -472,7 +472,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#EF1563"
+        "foreground": "#EF15BF"
       }
     },
     {
@@ -549,7 +549,7 @@
         "markup.deleted"
       ],
       "settings": {
-        "foreground": "#EF1563"
+        "foreground": "#EF15BF"
       }
     },
     {
@@ -608,7 +608,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#EF1563"
+        "foreground": "#EF15BF"
       }
     },
     {
@@ -851,7 +851,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#EF1563"
+        "foreground": "#EF15BF"
       }
     },
     {
@@ -908,7 +908,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#EF1563"
+        "foreground": "#EF15BF"
       }
     },
     {
