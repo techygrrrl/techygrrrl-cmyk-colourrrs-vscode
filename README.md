@@ -57,3 +57,8 @@ Please see the [Contributing guidelines](CONTRIBUTING.md) for information about 
 Package with:
 
     vsce package
+
+Upload to:
+
+- [Visual Studio Marketplace](https://marketplace.visualstudio.com/)
+- [Open VSX](https://open-vsx.org/) (by running `npm run publish:openvsx`)

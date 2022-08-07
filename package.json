@@ -27,7 +27,9 @@
     "Themes"
   ],
   "scripts": {
-    "yo": "yo"
+    "yo": "yo",
+    "package": "vsce package",
+    "publish:openvsx": "npx ovsx publish -p $OPEN_VSX_TOKEN"
   },
   "devDependencies": {
     "generator-code": "^1.6.10",
